@@ -1,3 +1,38 @@
+# 🚗 EV Motor Speed Reference Generator
+*Adaptive Cruise Control for Electric Vehicles with In-Wheel Motors*
+
+## 🎯 Project Overview
+This research project develops an **intelligent motor speed control system** for electric vehicles with in-wheel motors. The system automatically adjusts vehicle speed to maintain optimal tire grip and stability during cornering, even on slippery roads where traditional cruise control fails.
+
+## ⚡ The Challenge
+Traditional cruise control systems can't adapt to changing road conditions (ice, wet roads, etc.), leading to dangerous wheel slip and loss of control. This is especially critical for electric vehicles with independent in-wheel motors during bend maneuvers.
+
+## 🛠️ Our Solution
+- **Smart Speed Adaptation**: Automatically reduces vehicle speed when low-traction conditions are detected
+- **No Prior Knowledge Needed**: Unlike traditional systems, doesn't require pre-existing road condition data
+- **Real-time Optimization**: Maintains operation near maximum safe torque without human intervention
+- **Complex Simulation**: Validated using high-fidelity vehicle dynamics simulation (CarSim + MATLAB/Simulink)
+
+## 🚀 Key Features
+- ✅ **Automatic speed adjustment** for changing road conditions
+- ✅ **Wheel slip prevention** during cornering maneuvers  
+- ✅ **Model-based control design** using Pacejka tire characteristics
+- ✅ **Co-simulation environment** with professional automotive software
+- ✅ **Robust performance** under uncertain parameters
+
+## 🛠️ Technical Stack
+- **Simulation**: MATLAB/Simulink, CarSim
+- **Control Theory**: Adaptive Control, Contraction Mapping
+- **Modeling**: Vehicle Dynamics, Pacejka Magic Formula
+- **Analysis**: System Validation, Performance Metrics
+
+## 📈 Impact
+This research demonstrates a practical approach to enhancing **vehicle safety and stability** for next-generation electric vehicles, particularly those with advanced in-wheel motor configurations.
+
+---
+
+*Academic Research | Vehicle Dynamics | Control Systems | Electric Vehicles*
+
 # EV-Reference-Mapping
 ### [🔗 EV Reference Generator for In-Wheel Motor Vehicles]()
 *   Researched and developed an adaptive motor speed reference generator to ensure stability and safe tire slip for electric vehicles during cornering.
